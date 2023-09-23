@@ -7,36 +7,27 @@ import { Slide } from 'react-awesome-reveal';
 
 let clients = [
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 3,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
-    },
-    {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 4,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
-    },
-    {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+        name : "Al Muttakin",
+        position : "Dev Lead",
+        img_url : "/assets/al.jpg",
         stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : `Md Amanat Khan Shishir is a highly skilled and experienced software engineer with a passion for building innovative solutions. He has a deep understanding of software development principles and practices, and he is always up-to-date on the latest technologies and trends.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+        name : "Shahariar Rashid",
+        position : "Backend Engineer",
+        img_url : "/assets/default.jpg",
         stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : `Amanat Khan is an outstanding software engineer with a proven track record of success. He is highly skilled in all aspects of software development, from design and implementation to testing and deployment. He is always eager to take on new challenges.
+
+        `
+    },
+    {
+        name : "Evan Oyester",
+        position : "Salesforce Administator",
+        img_url : "/assets/default.jpg",
+        stars : 5,
+        disc : `I have had the privilage to work with Mr. Amanat. He is veru enthusiastic and hard working. He is always eager to learn new things. He is also a master of his craft and is always up-to-date on the latest technologies and trends and also a great team player.`
     },
 ]
 var settings = {
@@ -84,7 +75,7 @@ const Clients = () => {
     <Container id='client'>
         <Slide direction="left">
             <span className="green">testimonials</span>
-            <h1>what clients say</h1>
+            <h1>what people say</h1>
         </Slide>
         <Testimonials>
             <Slider ref={arrowRef} {...settings}>
