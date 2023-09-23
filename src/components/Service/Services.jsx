@@ -21,18 +21,21 @@ const Services = () => {
           <Card
             Icon={FaReact}
             title={"Reactjs Development"}
+            disc={`I have more than one years of experiance in reactjs development. Working on reactjs has always been fun for me. I have done some significant projects using reactjs.`}
           />
         </Slide>
         <Slide direction="up">
           <Card
             Icon={RiFlutterFill}
             title={"Flutter Development"}
+            disc={`Flutter is a cross platform framwork for mobile application development. I find flutter framwork to be a very productive and enjoyable framework to work. `}
           />
         </Slide>
         <Slide direction="right">
           <Card
             Icon={MdDesignServices}
             title={"UI/UX Design"}
+            disc={`I work on UI/UX using Figma. I find it to be a very powerful and flexible tool that can be used to create everything from low-fidelity wireframes to high-fidelity prototypes and design systems. `}
           />
         </Slide>
       </Cards>

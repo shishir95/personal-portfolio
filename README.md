@@ -1,10 +1,5 @@
 
-## Portfolio using React js and styled-components 2023
-
-## Demo
-[Demo](https://uxui-profile.netlify.app/)
-
-[Tutorial Video Link](https://youtu.be/xbyoqfwCFE8)
+## Persional portfolio
 
 ## Features
 
