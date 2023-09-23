@@ -6,24 +6,33 @@ import styled from 'styled-components';
 
 let data = [
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        name: "CodeBreakers",
+        img : "/assets/codebreakers.png",
+        disc : "CodeBreakers is a software engineering firm based in the port city called Chattogram. We have a vast software engineering team that is always ready to develop a cost-effective software solution.",
+        link: "https://codebreakers.quest/"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        name: "Clear Fork Digital",
+        img : "/assets/clearforkdc.png",
+        disc : "Clear Fork Digital is a leading provider of Software. They are committed to providing our customers with the best possible experience, and  are always looking for ways to innovate and improve our products and services.",
+        link: "https://clearforkdc.com/"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        name: "QuickMed Patient",
+        img : "/assets/quickmedpatient.png",
+        disc : "QuickMed, is a telemedicine platform, which offers online video consultation between patients and doctors drugs, diagnostics and e consultation in all over the world."
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+      name: "QuickMed Doctor",
+      img : "/assets/quickmedDoc.jpg",
+      disc : "QuickMed, is a telemedicine platform, which offers online video consultation between patients and doctors drugs, diagnostics and e consultation in all over the world.",
+      link: "https://play.google.com/store/apps/details?id=winmac.quickmed_doctor_app"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323979/Yt-portfolio/ui1_n3uiaz.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+      name: "Asia Fashion Tailors and Fabrics",
+      img : "/assets/asiafashion.png",
+      disc : "Asia Fashion Tailors and Fabrics is a leading men's fashion house based in chattogram, Bangladesh. In this software, all operations can be done smmothly",
+      link: "https://dribbble.com/shots/22640296-Asia-Fashion"
     }
 ];
 

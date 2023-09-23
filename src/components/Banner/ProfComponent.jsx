@@ -6,22 +6,32 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 
 const ProfComponent = () => {
+  const downloadResume = () => {
+    window.open(
+      "https://drive.google.com/file/d/19KeyK7OULOVKEwVEFWxgtuApBQLHnLwF/view?usp=sharing"
+    );
+  }
   return (
     <Container id="home">
-      <Slide direction="left">
+      <div>
+        <center>
+        <Slide direction="left" style={{
+          height: "-300px",
+        }}>
         <Texts>
           <h4>
             Hello <span className="green">I'am</span>
           </h4>
-          <h1 className="green">Milad Amiri</h1>
-          <h3>UX/UI Designer and graphic designer</h3>
+          <h1 className="green">Md Amanat Khan Shishir</h1>
+          <h3>Software Engineer</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            iusto. Adipisci in qui officia provident tenetur sequi, deserunt
-            corporis quos?
+          Enthusiast software engineer. More than three years of experience as a software industry.
+          Always eager to contribute for team success through hard work, dedication and excellent
+          organization skill. A clear understanding of programming knowledge motivated to learn,
+          grow, and excel in the tech industry.
           </p>
-          <button>Let's talk</button>
-          <Social>
+          <button onClick={downloadResume}>Resume</button>
+          {/* <Social>
             <p>Check out my</p>
             <div className="social-icons">
               <span>
@@ -40,17 +50,19 @@ const ProfComponent = () => {
                 </a>
               </span>
             </div>
-          </Social>
+          </Social> */}
         </Texts>
       </Slide>
-      <Slide direction="right">
+        </center>
+      </div>
+      {/* <Slide direction="right">
         <Profile>
           <img
             src="https://res.cloudinary.com/ghazni/image/upload/v1659082282/Yt-portfolio/Untitled-1_drcspz.png"
             alt="profile"
           />
         </Profile>
-      </Slide>
+      </Slide> */}
     </Container>
   );
 };
@@ -62,7 +74,7 @@ const Container = styled.div`
   gap: 2rem;
   padding-top: 3rem;
   width: 80%;
-  max-width: 1280px;
+  max-width: 920px;
   margin: 0 auto;
   z-index: 1;
   @media (max-width: 840px) {

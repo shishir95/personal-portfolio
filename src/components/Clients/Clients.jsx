@@ -7,36 +7,25 @@ import { Slide } from 'react-awesome-reveal';
 
 let clients = [
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 3,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        name : "Al Muttakin",
+        position : "Dev Lead",
+        img_url : "/assets/al.jpg",
+        stars : 5,
+        disc : `I have had the pleasure of working with Amanat Khan for the past two years on several high-profile software projects. He is an exceptionally talented software engineer with a deep understanding of software development principles and practices. He is also a highly motivated and results-oriented individual who is always willing to go the extra mile to get the job done.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+        name : "Shahariar Rashid",
+        position : "Backend Developer",
+        img_url : "/assets/default.jpg",
         stars : 4,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : `Md Amanat Khan Shishir is an outstanding software engineer with a proven track record of success. He is highly skilled in all aspects of software development, from design and implementation to testing and deployment. He is also a quick learner and is always eager to take on new challenges. He is also a great team player and is always willing to help out his teammates.`
     },
     {
         name : "John Michel",
         position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
+        img_url : "/assets/default.jpg",
         stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
-    },
-    {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : `Md Amanat Khan Shishir is very dedicated software engineer. He has a deep understanding of software development principles and practices, and he is always up-to-date on the latest technologies and trends.I have had the pleasure of workin on several projects over the years, and I have always been impressed by his work ethic, dedication, and problem-solving skills.`
     },
 ]
 var settings = {
@@ -84,7 +73,7 @@ const Clients = () => {
     <Container id='client'>
         <Slide direction="left">
             <span className="green">testimonials</span>
-            <h1>what clients say</h1>
+            <h1>What People Say</h1>
         </Slide>
         <Testimonials>
             <Slider ref={arrowRef} {...settings}>

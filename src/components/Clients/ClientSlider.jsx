@@ -17,7 +17,11 @@ const ClientSlider = (props) => {
                 ))}
             </div>
         </Header>
-        <Body>
+        <Body style={{
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+        }}>
             {disc}
         </Body>
         <Footer>
