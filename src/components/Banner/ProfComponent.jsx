@@ -1,8 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { AiOutlineInstagram } from "react-icons/ai";
-import { GiEarthAmerica } from "react-icons/gi";
-import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 
 const ProfComponent = () => {
@@ -33,14 +30,6 @@ const ProfComponent = () => {
       </Slide>
         </center>
       </div>
-      {/* <Slide direction="right">
-        <Profile>
-          <img
-            src="https://res.cloudinary.com/ghazni/image/upload/v1659082282/Yt-portfolio/Untitled-1_drcspz.png"
-            alt="profile"
-          />
-        </Profile>
-      </Slide> */}
     </Container>
   );
 };
@@ -96,64 +85,5 @@ const Texts = styled.div`
     :hover {
       filter: drop-shadow(0px 10px 10px #01be9570);
     }
-  }
-`;
-const Social = styled.div`
-  margin-top: 3rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  p {
-    font-size: 0.9rem;
-    @media (max-width: 690px) {
-      font-size: 0.7rem;
-    }
-  }
-
-  .social-icons {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    span {
-      width: 2.3rem;
-      height: 2rem;
-      clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-      background-color: #01be96;
-      position: relative;
-      transition: transform 400ms ease-in-out;
-      :hover {
-        transform: rotate(360deg);
-      }
-    }
-
-    a {
-      color: #fff;
-      position: absolute;
-      top: 55%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  }
-`;
-const Profile = styled.div`
-  img {
-    width: 25rem;
-    filter: drop-shadow(0px 10px 10px #01be9570);
-    transition: transform 400ms ease-in-out;
-    @media (max-width: 790px) {
-      width: 20rem;
-    }
-
-    @media (max-width: 660px) {
-      width: 18rem;
-    }
-
-    @media (max-width: 640px) {
-      width: 100%;
-    }
-  }
-
-  :hover img {
-    transform: translateY(-10px);
   }
 `;
