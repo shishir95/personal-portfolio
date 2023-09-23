@@ -2,7 +2,6 @@ import React from "react";
 import { MdDesignServices } from "react-icons/md";
 import { RiFlutterFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
-import { CgWebsite } from "react-icons/cg";
 import styled from "styled-components";
 import Card from "./Card";
 import { Slide } from "react-awesome-reveal";
