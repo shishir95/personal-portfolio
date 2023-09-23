@@ -1,0 +1,22 @@
+name: portfolio CI/CD
+
+on:
+  push:
+    branches: 
+      - "production"
+  pull_request:
+    branches:
+      - "production"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+      - uses: actions/checkout@v1
+      - run: npm install
+      - run: npm run build
