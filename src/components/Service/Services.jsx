@@ -1,6 +1,7 @@
 import React from "react";
 import { MdDesignServices } from "react-icons/md";
-import { FiCodesandbox } from "react-icons/fi";
+import { RiFlutterFill } from "react-icons/ri";
+import { FaReact } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
 import styled from "styled-components";
 import Card from "./Card";
@@ -18,26 +19,23 @@ const Services = () => {
       <Cards>
         <Slide direction="left">
           <Card
-            Icon={MdDesignServices}
-            title={"ui/ux designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={FaReact}
+            title={"Reactjs development"}
+            disc={`React is a JavaScript library for building user interfaces. It is a powerful and flexible tool that can be used to create high-quality designs quickly and efficiently. I have worked with Reactjs for more than three years. I have worked with such a significant industry like healthcare.`}
           />
         </Slide>
         <Slide direction="up">
           <Card
-            Icon={FiCodesandbox}
-            title={"graphic designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={RiFlutterFill}
+            title={"Flutter development"}
+            disc={`Flutter is a cross-platform development framework that allows developers to build native-looking apps for Android, iOS, web, and desktop from a single codebase. With more than three years of experiance, I have worked such a significant industry like healthcare.`}
           />
         </Slide>
         <Slide direction="right">
           <Card
-            Icon={CgWebsite}
-            title={"web designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={MdDesignServices}
+            title={"UI/UX design"}
+            disc={`For user interface designing Figma is very user friendly tools for UI/UX designing. I find it to be a very powerful and flexible tool that can be used to create everything from low-fidelity wireframes to high-fidelity prototypes and design systems. I have worked with Figma for more than two years.`}
           />
         </Slide>
       </Cards>

@@ -7,8 +7,7 @@ const Header = () => {
   return (
     <Container bar={bar}>
         <Logo>
-            <span className='green'><GiCandleFlame/></span>
-            <h1>Portfolio</h1>
+            <h1>AKS</h1>
         </Logo>
         <Nav bar={bar}>
             <span><a href="#home">Home</a></span>
