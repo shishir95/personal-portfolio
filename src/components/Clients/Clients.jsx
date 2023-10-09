@@ -25,9 +25,9 @@ let clients = [
     {
         name : "Evan Oyester",
         position : "Salesforce Administator",
-        img_url : "/assets/default.jpg",
+        img_url : "/assets/evan.jpeg",
         stars : 5,
-        disc : `I have had the privilage to work with Mr. Amanat. He is veru enthusiastic and hard working. He is always eager to learn new things. He is also a master of his craft and is always up-to-date on the latest technologies and trends and also a great team player.`
+        disc : `Md. Amanat Khan Shishir developed a website for me that works and looks great! As I've needed to update it and make iterations, he has responded and made the changes in a timely manner. I would recommend him as a front-end engineer.`
     },
 ]
 var settings = {
