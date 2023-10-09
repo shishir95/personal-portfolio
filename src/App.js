@@ -18,10 +18,10 @@ function App() {
         <Projects />
       </LightColor>
       <Services />
-      <Clients />
       <LightColor>
-        <Footer />
+        <Clients />
       </LightColor>
+      <Footer />
     </Container>
   );
 }
