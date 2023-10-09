@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef} from 'react';
 import styled from "styled-components";
 import { MdAlternateEmail } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
@@ -6,13 +6,25 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
+import emailjs from '@emailjs/browser';
 
 const Footer = () => {
+  const form = useRef();
   const scrollUp = () => {
     window.scroll({
       top: 0,
       behavior: "smooth",
     });
+  };
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm('service_25e1ybb', 'template_twdzm8l', e.target, 'AKhu_0lBc_9SZElQC')
+      .then((result) => {
+        alert("Message sent successfully");
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
   return (
     <Container id="footer">
@@ -80,24 +92,24 @@ const Footer = () => {
       </Profile>
       <Form>
         <Slide direction="right">
-          <form>
+          <form ref={form} onSubmit={sendEmail}>
             <div className="name">
               <span>
                 <CgProfile />
               </span>
-              <input type="text" placeholder="Fullname..." />
+              <input name="name" type="text" placeholder="Fullname..." />
             </div>
             <div className="email">
               <span>
                 <MdAlternateEmail />
               </span>
-              <input type="email" placeholder="Email..." />
+              <input name="email" type="email" placeholder="Email..." />
             </div>
             <div className="message">
               <span className="messageIcon">
                 <FiMail />
               </span>
-              <textarea cols="30" rows="10" placeholder="Message..."></textarea>
+              <textarea name="message" cols="30" rows="10" placeholder="Message..."></textarea>
             </div>
             <button>Submit</button>
           </form>
